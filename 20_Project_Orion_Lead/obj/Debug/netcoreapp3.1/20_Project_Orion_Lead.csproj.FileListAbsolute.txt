@@ -1,0 +1,17 @@
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.exe
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.deps.json
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.json
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.dev.json
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.csprojAssemblyReference.cache
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.cache
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.lref
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.g.resources
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfoInputs.cache
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
