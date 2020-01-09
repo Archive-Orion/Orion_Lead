@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="_20_Project_Orion_Lead.customControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_20_Project_Orion_Lead"
+             mc:Ignorable="d" 
+             d:DesignHeight="65" d:DesignWidth="258">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65"></ColumnDefinition>
+            <ColumnDefinition Width="193"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="UserImage" Width="60" Height="60" />
+        <StackPanel Grid.Column="1">
+            <TextBlock x:Name="UserName" TextWrapping="Wrap" Text="TextBloxk1" FontFamily="Microsoft YaHei UI" FontSize="15" Margin="5"></TextBlock>
+            <TextBlock x:Name="UserTitle" TextWrapping="Wrap" Text="TextBloxk2" FontFamily="Microsoft YaHei" Foreground="#FFACA6A6" Margin="5,0,0,0"></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl> 

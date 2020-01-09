@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_20_Project_Orion_Lead"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="626" Width="328" Opacity="0.5" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <StackPanel>
+        <local:customControl Width="Auto"/>
+    </StackPanel>
 </Window>
