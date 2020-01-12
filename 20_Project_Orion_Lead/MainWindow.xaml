@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="626" Width="328" Opacity="0.5" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <StackPanel>
-        <local:customControl Width="Auto"/>
+        <local:bar Height="13" Width="Auto"/>
     </StackPanel>
 </Window>
