@@ -17,3 +17,7 @@ D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcor
 D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
 D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.g.cs
 D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.baml
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.g.cs
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.baml
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.baml
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs

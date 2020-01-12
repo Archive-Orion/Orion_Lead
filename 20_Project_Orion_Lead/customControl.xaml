@@ -13,8 +13,8 @@
         </Grid.ColumnDefinitions>
         <Image x:Name="UserImage" Width="60" Height="60" />
         <StackPanel Grid.Column="1">
-            <TextBlock x:Name="UserName" TextWrapping="Wrap" Text="TextBloxk1" FontFamily="Microsoft YaHei UI" FontSize="15" Margin="5"></TextBlock>
-            <TextBlock x:Name="UserTitle" TextWrapping="Wrap" Text="TextBloxk2" FontFamily="Microsoft YaHei" Foreground="#FFACA6A6" Margin="5,0,0,0"></TextBlock>
+            <TextBlock x:Name="UserName" TextWrapping="Wrap" Text="TextBlock1" FontFamily="Microsoft YaHei UI" FontSize="15" Margin="5"></TextBlock>
+            <TextBlock x:Name="UserTitle" TextWrapping="Wrap" Text="TextBlock2" FontFamily="Microsoft YaHei" Foreground="#FFACA6A6" Margin="5,0,0,0"></TextBlock>
         </StackPanel>
     </Grid>
 </UserControl> 
