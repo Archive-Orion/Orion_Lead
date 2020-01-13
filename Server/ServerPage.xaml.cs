@@ -53,11 +53,46 @@ namespace Server
             if(pAddress == null)
             {
                 pAddress = IPAddress.Loopback;
-                pAddress.ToString(); //=> 어디에다가?
-
+                /*txtAddress.Text*/ = pAddress.ToString(); //=> 어디에다가?
             }
         }
 
 
+        void StartServer(object sender, EventArgs e)
+        {
+            int port;
+            //Port번호 이상할때
+            if(!int.TryParse(/*txtPort.Text*/, out port))
+            {
+                /*
+                 */
+            }
+
+            IPEndPoint iPEnd = new IPEndPoint(pAddress, port);
+            mainsocket.Bind(iPEnd);
+            mainsocket.Listen(10);
+
+            mainsocket.BeginAccept(AcceptCallBack, null);
+        }
+
+        List<Socket> connectedClients = new List<Socket>();
+
+        void AcceptCallBack(IAsyncResult ar)
+        {
+            Socket socket = mainsocket.EndAccept(ar);
+            mainsocket.BeginAccept(AcceptCallBack, null);
+
+            //AsyncObject
+            //
+
+            connectedClients.Add(/*Client*/);
+            //AppendText();
+            //client.BeginReceive();
+        } 
+
+        void Data_Received(IAsyncResult ar)
+        {
+
+        }
     }
 }
