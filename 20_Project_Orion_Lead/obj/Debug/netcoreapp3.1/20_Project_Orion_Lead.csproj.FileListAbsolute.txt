@@ -44,3 +44,5 @@ C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\D
 C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs
 C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
 C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.g.cs
+D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.baml

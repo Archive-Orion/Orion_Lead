@@ -17,5 +17,19 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
+        <Style x:Key="Transimit_Btn" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="3" Background="{TemplateBinding Background}" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                                
+                            </ContentPresenter> 
+                        </Border>
+                    </ControlTemplate>            
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>
