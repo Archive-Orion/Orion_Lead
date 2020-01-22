@@ -11,8 +11,8 @@
             <ColumnDefinition Width="300"></ColumnDefinition>
             <ColumnDefinition Width="28"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="txt_Input"  Text="" TextWrapping="Wrap"  Width="300"/>
-        <Button Content="Trans_Button" Style="{StaticResource Transimit_Btn}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="28"/>
+        <TextBox x:Name="txt_Input"  Text="" TextWrapping="Wrap"/>
+        <Button x:Name="Trnas_btn" Content="Trans_Button" Style="{StaticResource Transimit_Btn}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="28"/>
 
     </Grid>
 

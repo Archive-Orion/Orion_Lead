@@ -46,3 +46,28 @@ C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\D
 C:\Users\kgw17\Source\Repos\Archive-Orion\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
 D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.g.cs
 D:\Visual Stdio(C#)\20_Project_Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.csprojAssemblyReference.cache
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.cache
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.lref
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.exe
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.deps.json
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.json
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.dev.json
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.baml
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.g.resources
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfoInputs.cache
+C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs

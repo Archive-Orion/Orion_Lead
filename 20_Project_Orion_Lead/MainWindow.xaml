@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_20_Project_Orion_Lead"
         mc:Ignorable="d"
-        Title="MainWindow" Height="626" Width="328" Opacity="0.5" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#FF6E6E6E" WindowStyle="None" AllowsTransparency="True" Loaded="client_Loaded">
+        Title="MainWindow" Height="626" Width="328" Opacity="0.5" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="#FF6E6E6E" WindowStyle="None" AllowsTransparency="True" Loaded="client_Loaded">
     <StackPanel>
         <local:bar Height="13" Width="Auto"/>
+        <TextBox x:Name="TxtHistory" IsReadOnly ="True" Text="" TextWrapping="Wrap" Width="329" Height="495"/>
+        <TextBox x:Name="txtAddress" Text="TextBox" TextWrapping="Wrap" Width="328" Height="21"/>
+        <TextBox x:Name="txtPort" Text="15000" TextWrapping="Wrap" Width="331" Height="18"/>
+        <Button x:Name="Btn_start" Content="Button" Click="Btn_start_Click_1" Height="21"/>
+        <TextBox x:Name="txtInput" Text="" TextWrapping="Wrap" Width="331" Height="22"/>
+        <Button x:Name="Btn_Transfer" Content="Button" Click="Btn_Transfer_Click" Height="21"/>
     </StackPanel>
 </Window>
