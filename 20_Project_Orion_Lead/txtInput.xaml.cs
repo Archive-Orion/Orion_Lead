@@ -22,5 +22,7 @@ namespace _20_Project_Orion_Lead
         {
             InitializeComponent();
         }
+
+      
     }
 }
