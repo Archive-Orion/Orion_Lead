@@ -2,40 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
-using System.Windows.Controls;
 using System.Net;
 using System.Net.Sockets;
 
 namespace _20_Project_Orion_Lead
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        string source;
-        delegate void Append_txt_Dele(Control control, string s);
         Socket main_socket;
-        Append_txt_Dele _Txt_Dele;
         IPAddress Default_iPAddress = null;
         public MainWindow()
         {
             InitializeComponent();
             main_socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
-            _Txt_Dele = new Append_txt_Dele(AppendTxt);
         }
-        void AppendTxt(Control control, string s)
-        {
-            if(control.Dispatcher.CheckAccess())
-            {
-                control.Dispatcher.Invoke(_Txt_Dele, control, s);
-            }
-            else
-            {
-                control.SetValue(ContentControl.ContentProperty, source);
-                string v = source + Environment.NewLine + s;
-            }
-        }
+      
         private void client_Loaded(object sender, RoutedEventArgs e)
         {
             IPHostEntry hostEntry = Dns.GetHostEntry(Dns.GetHostName());
@@ -85,7 +66,7 @@ namespace _20_Project_Orion_Lead
             AsyncObect obj = new AsyncObect(4096);
             obj.Working_socket = client;
             connectedClients.Add(client);
-            AppendTxt(TxtHistory, string.Format("클라이언트(@{0})가 연결되;었습니다.", client.RemoteEndPoint));
+            TxtHistory.Text += string.Format("\n클라이언트(@{0})가 연결되;었습니다.", client.RemoteEndPoint);
             client.BeginReceive(obj.Buffer, 0, 4096, 0, DataReceived, obj);
         }
 
@@ -107,7 +88,7 @@ namespace _20_Project_Orion_Lead
             string ip = token[0]; 
             string msg = token[1];
 
-            AppendTxt(TxtHistory, string.Format("[받음]{0}: {1}", ip, msg));
+            TxtHistory.Text += string.Format("\n[받음]{0}: {1}", ip, msg);
 
             for(int i = connectedClients.Count-1; i >=0; i--)
             {
@@ -154,8 +135,7 @@ namespace _20_Project_Orion_Lead
                     connectedClients.RemoveAt(i);
                 }
             }
-
-            AppendTxt(TxtHistory, string.Format("[보냄]{0}: {1}", Default_iPAddress.ToString(), tts));
+            TxtHistory.Text += string.Format("\n[보냄]{0}: {1}", Default_iPAddress.ToString(), tts);
             txtInput.Clear();
         }
     }
