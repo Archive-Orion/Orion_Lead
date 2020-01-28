@@ -96,4 +96,3 @@ D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_
 D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs
 D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
 D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
-D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\Complete_ver_Window.baml

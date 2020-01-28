@@ -78,9 +78,53 @@ namespace Client
 
         void DataReceived(IAsyncResult ar)
         {
+            Client_AsyncObject obj = (Client_AsyncObject)ar.AsyncState;
 
+            int received = obj.Working_socket.EndReceive(ar);
+
+            if(received <= 0)
+            {
+                obj.Working_socket.Close();
+                return;
+            }
+
+            string text = Encoding.UTF8.GetString(obj.Buffer);
+
+            string[] Client_tokens = text.Split('\x01');
+            string ip = Client_tokens[0];
+            string msg = Client_tokens[1];
+
+            Txt_history.Text += string.Format("\n[받음]{0} : {1}", ip, msg);
+            obj.ClearBuffer();
+            obj.Working_socket.BeginReceive(obj.Buffer, 0, 4096, 0, DataReceived, obj);
         }
 
+        private void Transfer_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!client_Socket.IsBound)
+            {
+                MessageBox.Show("서버IS not Working", "경고", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            string transfer_Tetxt_Message = Txt_Transfer_text.Text.Trim();
+            if (string.IsNullOrEmpty(transfer_Tetxt_Message))
+            {
+                MessageBox.Show("입력해라", "뭐하냐", MessageBoxButton.OK, MessageBoxImage.Question);
+                Txt_Transfer_text.Focus();
+                return;
+            }
+
+            IPEndPoint Client_ip = (IPEndPoint)client_Socket.LocalEndPoint;
+            string client_addr = Client_ip.Address.ToString();
+
+            byte[] vs = Encoding.UTF8.GetBytes(client_addr + "\x01" + transfer_Tetxt_Message);
+
+            client_Socket.Send(vs);
+
+            Txt_history.Text += string.Format("\n[보냄]{0} : {1}", client_addr, transfer_Tetxt_Message);
+            Txt_Transfer_text.Clear();
+        }
 
         private void close_btn_Click(object sender, RoutedEventArgs e)
         {
@@ -97,6 +141,12 @@ namespace Client
             Application.Current.MainWindow.DragMove();
         }
 
-        
+        private void Txt_Transfer_text_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keyboard.IsKeyDown(Key.Enter))
+            {
+                Transfer_Btn.Focus();
+            }
+        }
     }
 }
