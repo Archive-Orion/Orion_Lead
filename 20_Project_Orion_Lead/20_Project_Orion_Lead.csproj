@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Complete_ver_Window.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Complete_ver_Window.xaml" />
+  </ItemGroup>
+
 </Project>

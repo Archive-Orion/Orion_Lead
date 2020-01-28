@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kgw17\\Source\\Repos\\Orion_Lead2\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj": {}
+    "D:\\Visual Stdio(C#)\\Orion_Lead\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kgw17\\Source\\Repos\\Orion_Lead2\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj": {
+    "D:\\Visual Stdio(C#)\\Orion_Lead\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kgw17\\Source\\Repos\\Orion_Lead2\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj",
+        "projectUniqueName": "D:\\Visual Stdio(C#)\\Orion_Lead\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj",
         "projectName": "20_Project_Orion_Lead",
-        "projectPath": "C:\\Users\\kgw17\\Source\\Repos\\Orion_Lead2\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj",
+        "projectPath": "D:\\Visual Stdio(C#)\\Orion_Lead\\20_Project_Orion_Lead\\20_Project_Orion_Lead.csproj",
         "packagesPath": "C:\\Users\\kgw17\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kgw17\\Source\\Repos\\Orion_Lead2\\20_Project_Orion_Lead\\obj\\",
+        "outputPath": "D:\\Visual Stdio(C#)\\Orion_Lead\\20_Project_Orion_Lead\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,7 +59,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

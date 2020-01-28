@@ -4,15 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_20_Project_Orion_Lead"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="626" Width="328" Opacity="0.5" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="#FF6E6E6E" WindowStyle="None" AllowsTransparency="True" Loaded="client_Loaded">
+        mc:Ignorable="d" Height="626" Width="328" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="#FF6E6E6E" Loaded="client_Loaded" WindowStyle="None" AllowsTransparency="True" BorderThickness="1,1,1,1">
     <StackPanel>
         <local:bar Height="13" Width="Auto"/>
-        <TextBox x:Name="TxtHistory" IsReadOnly ="True" Text="" TextWrapping="Wrap" Width="329" Height="495"/>
-        <TextBox x:Name="txtAddress" Text="TextBox" TextWrapping="Wrap" Width="328" Height="21"/>
-        <TextBox x:Name="txtPort" Text="15000" TextWrapping="Wrap" Width="331" Height="18"/>
-        <Button x:Name="Btn_start" Content="Button" Click="Btn_start_Click_1" Height="21"/>
-        <TextBox x:Name="txtInput" Text="" TextWrapping="Wrap" Width="331" Height="22"/>
-        <Button x:Name="Btn_Transfer" Content="Button" Click="Btn_Transfer_Click" Height="21"/>
+        <TextBox x:Name="TxtHistory" IsReadOnly ="True" Text="" TextWrapping="Wrap" Width="Auto" Height="495"/>
+        <TextBox x:Name="txtAddress" Text="" TextWrapping="Wrap" Width="Auto" Height="21"/>
+        <TextBox x:Name="txtPort" Text="15000" TextWrapping="Wrap" Width="Auto" Height="18"/>
+        <Button x:Name="Btn_start" Content="서버 시작" Click="Btn_start_Click_1" Height="21"/>
+        <TextBox x:Name="txtInput" Text="" TextWrapping="Wrap" Width="Auto" Height="22" KeyDown="txtInput_KeyDown"/>
+        <Button x:Name="Btn_Transfer" Content="전송" Click="Btn_Transfer_Click" Height="21"/>
     </StackPanel>
 </Window>

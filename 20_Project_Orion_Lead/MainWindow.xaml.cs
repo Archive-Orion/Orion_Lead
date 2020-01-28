@@ -4,6 +4,7 @@ using System.Text;
 using System.Windows;
 using System.Net;
 using System.Net.Sockets;
+using System.Windows.Input;
 
 namespace _20_Project_Orion_Lead
 {
@@ -137,6 +138,14 @@ namespace _20_Project_Orion_Lead
             }
             TxtHistory.Text += string.Format("\n[보냄]{0}: {1}", Default_iPAddress.ToString(), tts);
             txtInput.Clear();
+        }
+
+        private void txtInput_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(Keyboard.IsKeyDown(Key.Enter))
+            {
+                Btn_Transfer.Focus();
+            }
         }
     }
 }

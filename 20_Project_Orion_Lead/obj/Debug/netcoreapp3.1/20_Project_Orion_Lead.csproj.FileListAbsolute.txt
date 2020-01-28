@@ -71,3 +71,29 @@ C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcorea
 C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.g.resources
 C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfoInputs.cache
 C:\Users\kgw17\Source\Repos\Orion_Lead2\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.exe
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.deps.json
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.json
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.runtimeconfig.dev.json
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\bin\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.csprojAssemblyReference.cache
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.cache
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead_MarkupCompile.lref
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\App.baml
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\bar.baml
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\customControl.baml
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\txtInput.baml
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.g.resources
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfoInputs.cache
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.AssemblyInfo.cs
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.dll
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\20_Project_Orion_Lead.pdb
+D:\Visual Stdio(C#)\Orion_Lead\20_Project_Orion_Lead\obj\Debug\netcoreapp3.1\Complete_ver_Window.baml
